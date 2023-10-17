@@ -166,7 +166,7 @@ not sure why. However, I do not believe this issue is signifanct, though,
 because the log file will still contain the article ID, so these troublesome
 articles will still be tracked.
 
-## Research Implications:
+## Research Implications
 ### What did I learn? 
 At first, when I was reviewing the ranking tables I built in Step 5, I believed
 that it would make sense to see the more populated states at the top of the
@@ -180,6 +180,57 @@ didn't appear on the top 10 states with most article coverage or high quality
 coverage, I shouldn't have been as surprised by this. This simply means, I belive
 that generally the state's population increase out-paced the increase in articles.
 
+
+Initially, while a bit simplistic, I
+
+- surprised some less populated states made top coverage list (table1). 5 were
+less than 1 million in population. While 7 of the bottom states by coverage
+were greater than a million. Hunch is that population varies a lot more than
+number of articles. 
+- I would have expected the most populated states to win at coverage. Didn't
+happen according to the above. However, it does appear when you inspect the top
+states by high-quality articles that there is a rough positive correlation
+between the number of high quality articles and the state's population. For
+instance, 4 of the 5 states with > 1 high quality article had over 8 million
+in population.
+- I would expect a strong correlation between the top US states by coverage and
+top US states by high quality articles. 
+    - articles that were in coverage but not in top quality:
+        - North Dakota
+        - South Dakota
+        - Iowa
+        - Alaska
+        - Wyoming
+        - Arkansas
+    - articles that were not in top coverage but were in top quality:
+        - West Virginia
+        - Idaho
+        - Virginia
+        - Alabama
+        - Maryland
+        - Illinois
+- I would have expected the most populated states to win at quality and coverage
+but, according to the NST 2022 estimated state population, the four states
+with the greatest population (California, Texas, Florida, and New York) do not
+appear in the top 10 in either category. Furthermore, many of the top 10 states
+by coverage per capita are the states with the lowest populations, such as
+Wyoming, Vermont, Alaska, North and South Dakota. 
+
+We can also see that the two regions with the lowest total coverage of articles
+per capita are the two most populated regions: South Atlantic and the Pacific
+(see Table 5).
+
+Less of a discernable pattern for the region ranking by high quality coverage
+per capita. However, we can tell by inspection that the least populated region,
+New England, is ranked #1. Based on this grouping, it is clear that almost all
+of the high quality articles appear in the Eastern half of the US. Why? I don't
+know. I am not as surprised that the East coast tops the list of high quality
+articles because I'm guessing it's related to all the history or our Nation.
+However, I am surprised that the East North Central (part of the MidWest) is the
+#3 region. I just checked the rank of regions by population and East North
+Central is #3, so this is balanced after all!
+
+Why? 
 ### Reflection Questions from Assignment:
 #### 1.	"What biases did you expect to find in the data (before you started working with it), and why?"
 I honestly did not expect to see much bias in the results - perhaps a bit
@@ -190,22 +241,42 @@ that in my cursory analysis.
 #### 2.	"What (potential) sources of bias did you discover in the course of your data processing and analysis?"
 The analysis I performed for the assignment was a bit cursory, as I based my
 assessment predominately off of the 6 tables I created in Step 4 of my
-assignment. I honestly found it a bit difficult to detect the presence of bias.
-However, from a regional division perspective, I did see that while New
+assignment. However, it does appear that there is some potential bias in the
+findings. As I mentioned earlier, if there was no bias and all people were
+equally represented in terms of the number of articles and number of high quality
+articles per capita for each state or region, we would expect the most populated
+states to appear in the top rankings. However, the top four largest states
+(California, Texas, Florida, and New York) did not appear in either top 10 list.
+
+I have identified through my analysis that the most populated states
+(California, Texas, Florida, and New York) seem to be heavily underrepresented
+in terms of the number of articles written, i.e. coverage per capita. It seems
+that there is not an obvious positive correlation between the population of
+a state and the article coverage. Additionally, from a regional division perspective, we see that while New
 England has the smallest population of all regions, it is the top result for
 high quality coverage and 2nd highest result for total article coverage (Table
-5 and 6), which I thought was a bit odd. 
+5 and 6). 
 
 Without studying the data more deeply, beyond the scope of this assignment, I
-cannot provide a good answer as to what is causing this perceived bias, or
-whether it is a bias at all. I am not sure why the New England regional
-division and the rest of the Eastern half of the United States has the vast
-majority of the high quality articles. One untested hypothesis that I do have
-is that because the first colonies in America were established on the East
-coast, there is a lot more historical events that occurred in some of these
-cities that are foundational to American history and hence merit more
-well-written articles. These are just untested ideas, though, and I am very
-curious as to what is causing these apparent biases. 
+cannot provide a good answer as to what is causing these perceived biases.
+As discussed earlier, we can observe
+from the tables produced in this analysis that the states with lower populations
+seem to be overrepresented while most of the larger states have a lower per capita
+score. One hypothesis I have for this behavior is that perhaps this is not due
+to a bias in the data or the processes that generated the data, but rather
+because the populations of states vary much more than the number of articles
+written about the cities in each state. Perhaps most states have a relatively
+simillar number of cities within them, resulting in a similar number of city
+articles. 
+
+Likewise, I am not sure why the New England regional division and the rest of
+the Eastern half of the United States has the vast majority of the high quality
+articles. One untested hypothesis that I do have is that because the first
+colonies in America were established on the East coast, there is a lot more
+historical events that occurred in some of these cities that are foundational
+to American history and hence merit more well-written articles. These are just
+untested ideas, though, and I am very curious as to what is causing these
+apparent biases. 
 
 #### 3.	"What might your results suggest about (English) Wikipedia as a data source?"
 In short, I believe that there are advantages and disadvantages to using the
